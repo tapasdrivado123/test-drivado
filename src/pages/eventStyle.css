@@ -1,0 +1,53 @@
+/* table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    padding: 10px 0;
+    color: #fb4156;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  th:first-child {
+    padding-left:15px;
+  }
+
+  th:last-child {
+    width: 5rem;
+  }
+  
+  tbody tr {
+    border-bottom:1px solid #9f9f9f;
+  }
+
+  tbody tr:hover {
+    background:#e8e8e8;
+  }
+  
+  td {
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 400;
+  }
+
+  td.eventName {
+    color:green;
+  }
+
+  td:first-child {
+    padding-left:15px;
+  } */
+  
+  /* td:last-child {
+    font-size: 30px;
+  }   */

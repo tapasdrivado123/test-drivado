@@ -1,0 +1,135 @@
+/* table, thead, tr, td {background-color: transparent;text-align: left;} */
+/* table:hover, thead:hover, tr:hover, td:hover {background-color: #fff!important;} */
+/* td {padding: 0;}
+tbody tr {border: none!important;}
+th:first-child {
+  padding-left:0!important;
+}
+th:last-child {
+  width: auto!important;
+}
+td:first-child {
+  padding-left:0px;
+} */
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.padding-0 {padding: 0!important;}
+
+.wrapper {padding-left: 10px!important; padding-right: 10px!important;}
+
+
+/* .logo {background-image: url(../assets/drivado-logo.png);} */
+
+/* CLIENT-SPECIFIC STYLES */
+body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+table{border-collapse: collapse !important;}
+ul, li { list-style-type:none;}
+body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+.contacts {text-align:right;font-size:14px;color:#000;line-height:12px;}
+.contacts a {text-align:left;font-size:14px;color:#0080cc;text-decoration:none;}
+.contacts a:hover {text-decoration:underline;}
+
+/* iOS BLUE LINKS */
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 525px) {
+
+  /* ALLOWS FOR FLUID TABLES */
+  .wrapper {
+    width: 100% !important;
+      max-width: 100% !important;        
+      max-width: 700px;
+      border-bottom: 1px solid #3e3e3e;
+  }
+
+  /* ADJUSTS LAYOUT OF LOGO IMAGE */
+  .logo img {
+    margin: 0 auto !important;
+    width:90%;
+    height:auto;
+    padding:20px 0 0 10px;
+  }
+
+  /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .img-max {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* FULL-WIDTH TABLES */
+  .responsive-table {
+    width: 100% !important;
+  }
+
+  /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+  .padding {
+    padding: 10px 5% 15px 5% !important;
+  }
+
+  .padding-meta {
+        padding: 30px 5% 0px 5% !important;
+        text-align: center;
+  }
+
+  .padding-copy {
+      padding: 10px 5% 10px 5% !important;
+      text-align: left;
+  }
+  .padding-copy2 {
+      font-family: 'Open Sans', sans-serif;
+      padding: 10px 2% 10px 1% !important;
+        text-align: right;
+        line-height:10px;
+  }
+  .contacts {font-size:13px;line-height:10px;}
+  .contacts a {font-size:13px;}
+
+  .no-padding {
+    padding: 0 !important;
+  }
+
+  .section-padding {
+    padding: 50px 15px 50px 15px !important;
+  }
+
+  /* ADJUST BUTTONS ON MOBILE */
+  .mobile-button-container {
+      margin: 0 auto;
+      width: 100% !important;
+  }
+
+  .mobile-button {
+      padding: 15px !important;
+      border: 0 !important;
+      font-size: 16px !important;
+      display: block !important;
+  }
+
+}
+
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] { margin: 0 !important; }
